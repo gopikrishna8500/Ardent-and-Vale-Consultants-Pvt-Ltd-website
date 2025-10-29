@@ -22,7 +22,7 @@ const AboutUsPage = () => {
                 <div className="absolute inset-0 bg-slate-900/80"></div>
                 <div className="relative z-10 text-center text-white max-w-2xl mx-auto px-6">
 
-                <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-4 break-words">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-4 wrap-break-word">
 
                         About Ardent & Vale Consultants Pvt Ltd
                     </h1>
