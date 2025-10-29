@@ -12,16 +12,18 @@ const AboutUsPage = () => {
         <div className="min-h-screen bg-gray-100 font-sans">
 
             {/* Hero Section */}
-            <div
-                className="relative py-24 bg-cover bg-center"
+            <div className="relative py-20 bg-cover bg-center overflow-hidden"
+
                 style={{
                     backgroundImage:
                         "url('https://images.unsplash.com/photo-1521790361543-f645cf042ec4?auto=format&fit=crop&w=1600&q=80')",
                 }}
             >
                 <div className="absolute inset-0 bg-slate-900/80"></div>
-                <div className="relative z-10 text-center text-white max-w-5xl mx-auto px-4">
-                    <h1 className="text-4xl md:text-5xl font-extrabold mb-4">
+                <div className="relative z-10 text-center text-white max-w-2xl mx-auto px-6">
+
+                <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-4 break-words">
+
                         About Ardent & Vale Consultants Pvt Ltd
                     </h1>
                     <p className="text-lg md:text-xl text-slate-200">
@@ -67,10 +69,10 @@ const AboutUsPage = () => {
                             <h3 className="text-2xl font-semibold text-slate-900 mb-4">Key Company Details</h3>
                             <ul className="text-gray-700 space-y-3 flex-1">
                                 Ardent & Vale Consultants Pvt Ltd is a professional consulting and
-                            workforce solutions company dedicated to connecting businesses with
-                            skilled talent while enabling sustainable organizational growth. We
-                            work across multiple industries helping organizations build strong,
-                            scalable, and people-focused work environments.
+                                workforce solutions company dedicated to connecting businesses with
+                                skilled talent while enabling sustainable organizational growth. We
+                                work across multiple industries helping organizations build strong,
+                                scalable, and people-focused work environments.
                                 {/* <li><strong>Incorporation:</strong> 21 June 2025</li>
                                 <li><strong>Office:</strong> Ilabs Centre, Shaikpet, Hyderabad</li>
                                 <li><strong>Authorized Capital:</strong> ₹1.00 M</li>
@@ -112,9 +114,9 @@ const AboutUsPage = () => {
                         We engineer high-performance, custom mobile apps that drive massive user acquisition and ensure long-term market leadership.
                     </p>
                     <Link to="/mobile">
-                    <button className="bg-slate-900 hover:bg-slate-600 text-white px-6 py-2 rounded-lg transition-colors">
-                        Read More
-                    </button>
+                        <button className="bg-slate-900 hover:bg-slate-600 text-white px-6 py-2 rounded-lg transition-colors">
+                            Read More
+                        </button>
                     </Link>
                 </div>
 
@@ -132,9 +134,9 @@ const AboutUsPage = () => {
                         We build intuitive, scalable web platforms designed to convert visitors into loyal customers and accelerate your business growth.
                     </p>
                     <Link to="/webdesign">
-                    <button className="bg-slate-900 hover:bg-slate-600 text-white px-6 py-2 rounded-lg transition-colors">
-                        Read More
-                    </button>
+                        <button className="bg-slate-900 hover:bg-slate-600 text-white px-6 py-2 rounded-lg transition-colors">
+                            Read More
+                        </button>
                     </Link>
                 </div>
 
@@ -152,9 +154,9 @@ const AboutUsPage = () => {
                         We provide elite, vetted developers on-demand, enabling you to rapidly scale teams, modernize systems, and accelerate transformation.
                     </p>
                     <Link to="/staff-augmentation">
-                    <button className="bg-slate-900 hover:bg-slate-600 text-white px-6 py-2 rounded-lg transition-colors">
-                        Read More
-                    </button>
+                        <button className="bg-slate-900 hover:bg-slate-600 text-white px-6 py-2 rounded-lg transition-colors">
+                            Read More
+                        </button>
                     </Link>
                 </div>
 
@@ -195,7 +197,7 @@ const AboutUsPage = () => {
                 </div>
 
             </div>
-             {/* Vision & Purpose Section */}
+            {/* Vision & Purpose Section */}
             <div className="bg-gray-50 py-16">
                 <div className="max-w-7xl mx-auto px-4">
                     <h2 className="text-3xl font-bold text-slate-800 mb-5">Our Vision & Purpose</h2>
@@ -214,7 +216,7 @@ const AboutUsPage = () => {
                         </p>
                     </div>
                 </div>
-                
+
             </div>
 
             {/* Contact Snapshot */}
@@ -244,7 +246,7 @@ const AboutUsPage = () => {
                     ))}
                 </div>
             </div>
-           
+
 
             <TestimonialSection />
 
