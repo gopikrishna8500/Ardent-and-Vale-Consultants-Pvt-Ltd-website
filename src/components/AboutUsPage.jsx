@@ -12,7 +12,8 @@ const AboutUsPage = () => {
         <div className="min-h-screen bg-gray-100 font-sans">
 
             {/* Hero Section */}
-            <div className="relative py-20 bg-cover bg-center overflow-hidden"
+          <div className="relative py-16 sm:py-20 bg-cover bg-center overflow-hidden"
+
 
                 style={{
                     backgroundImage:
@@ -22,7 +23,8 @@ const AboutUsPage = () => {
                 <div className="absolute inset-0 bg-slate-900/80"></div>
                 <div className="relative z-10 text-center text-white max-w-2xl mx-auto px-6">
 
-                <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-4 wrap-break-word">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4 break-words leading-tight px-2">
+
 
                         About Ardent & Vale Consultants Pvt Ltd
                     </h1>
@@ -49,7 +51,8 @@ const AboutUsPage = () => {
                 </p>
 
                 {/* Image Left + Cards Right (SAME HEIGHT) */}
-                <div className="mt-20 flex flex-col md:flex-row items-stretch gap-12">
+                <div className="mt-12 md:mt-20 flex flex-col md:flex-row items-stretch gap-8 md:gap-12">
+
 
                     {/* LEFT IMAGE */}
                     <div className="w-full md:w-1/2 h-auto md:h-[520px] overflow-hidden rounded-xl shadow-2xl">
@@ -67,7 +70,8 @@ const AboutUsPage = () => {
                         <div className="bg-white shadow-lg p-8 rounded-xl border border-gray-200 
                             transition-all duration-300 hover:shadow-2xl hover:scale-[1.03] cursor-pointer flex-1 flex flex-col">
                             <h3 className="text-2xl font-semibold text-slate-900 mb-4">Key Company Details</h3>
-                            <ul className="text-gray-700 space-y-3 flex-1">
+                            <ul className="text-gray-700 space-y-3 flex-1 leading-relaxed">
+
                                 Ardent & Vale Consultants Pvt Ltd is a professional consulting and
                                 workforce solutions company dedicated to connecting businesses with
                                 skilled talent while enabling sustainable organizational growth. We
@@ -107,7 +111,8 @@ const AboutUsPage = () => {
                             <img src={appDevelopmentImg} alt="Mobile App Development" className="w-8 h-8" />
                         </div>
                     </div>
-                    <h3 className="text-xl font-bold text-slate-800 mb-4 group-hover:text-white">
+                    <h3 className="text-xl font-bold mb-4 group-hover:text-white">
+
                         Mobile App Development
                     </h3>
                     <p className="text-gray-600 mb-6 leading-relaxed group-hover:text-white">
@@ -198,7 +203,8 @@ const AboutUsPage = () => {
 
             </div>
             {/* Vision & Purpose Section */}
-            <div className="bg-gray-50 py-16">
+          <div className="bg-gray-50 py-12 sm:py-16">
+
                 <div className="max-w-7xl mx-auto px-4">
                     <h2 className="text-3xl font-bold text-slate-800 mb-5">Our Vision & Purpose</h2>
                     <div className="space-y-12">
