@@ -96,8 +96,7 @@ const AboutUsPage = () => {
                     </div>
                     <h3 className="text-xl font-bold mb-4">Mobile App Development</h3>
                     <p className="text-gray-600 group-hover:text-white leading-relaxed mb-6">
-                        High-performance mobile solutions tailored to business needs.
-                    </p>
+                        We specialize in creating high-quality mobile applications that enhance user experience and drive business growth.                    </p>
                     <Link to="/mobile">
                         <button className="bg-slate-900 hover:bg-slate-600 text-white px-6 py-2 rounded-lg transition">
                             Read More
@@ -111,10 +110,9 @@ const AboutUsPage = () => {
                             <img src={webDevelopmentImg} className="w-8 h-8" />
                         </div>
                     </div>
-                    <h3 className="text-xl font-bold mb-4">Web Development</h3>
+                    <h3 className="text-xl font-bold mb-4">Web Design & Development</h3>
                     <p className="text-gray-600 group-hover:text-white leading-relaxed mb-6">
-                        Fast, scalable & modern business web platforms.
-                    </p>
+                        We craft visually stunning and highly functional websites that deliver seamless user experiences and empower businesses to thrive online.                    </p>
                     <Link to="/webdesign">
                         <button className="bg-slate-900 hover:bg-slate-600 text-white px-6 py-2 rounded-lg transition">
                             Read More
@@ -130,8 +128,7 @@ const AboutUsPage = () => {
                     </div>
                     <h3 className="text-xl font-bold mb-4">Staff Augmentation</h3>
                     <p className="text-gray-600 group-hover:text-white leading-relaxed mb-6">
-                        Scale your workforce with vetted professionals.
-                    </p>
+                        Our recruitment arm keeps evolving. At APT IT Professional Services, we don't just fill roles. We align with your vision of business transformation.                    </p>
                     <Link to="/staff-augmentation">
                         <button className="bg-slate-900 hover:bg-slate-600 text-white px-6 py-2 rounded-lg transition">
                             Read More
@@ -147,17 +144,17 @@ const AboutUsPage = () => {
                     {[{
                         title: "Job Seekers",
                         img: appDevelopmentImg,
-                        desc: "Career opportunities in top companies.",
+                        desc: "Are you looking to jump start your career or acquire more experience in the IT sectors of Application Development and Maintenance, Data Warehousing, QA Testing, ERP, or Infrastructure Management? Then you’ve come to the right place.",
                         link: "/mobile"
                     }, {
                         title: "Employees",
                         img: staffManagementImg,
-                        desc: "Secure roles with onboarding support.",
+                        desc: "Are you a business establishment who wants recruits on contract or contract-to-hire basis to realize your short-term or specialized work requirements? We can delegate the right candidate to suit your project needs.",
                         link: "/webdesign"
                     }, {
                         title: "Clients",
                         img: webDevelopmentImg,
-                        desc: "Reliable talent delivery on demand.",
+                        desc: "Are you an organization looking for manpower with the perfect blend of IT experience, knowledge and commitment to your business goals and ideals? Allow us to help you fulfill your needs.",
                         link: "/staff-augmentation"
                     }].map((card, i) => (
                         <div key={i} className="bg-white p-8 shadow-lg rounded-lg hover:bg-slate-700 hover:text-white transition">
@@ -200,7 +197,7 @@ const AboutUsPage = () => {
                             Our purpose is to connect technology’s greatest minds with the world’s top companies while cultivating a work environment that reflects our values: Be Amazing, Have Fun, Do the Essential, Adapt, and Have Purpose.
                         </p>
                     </div>
-                     {/* Contact Snapshot */}
+                    {/* Contact Snapshot */}
                     <h2 className="text-3xl font-bold text-slate-800 mb-8">Contact Snapshot</h2>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
@@ -229,8 +226,8 @@ const AboutUsPage = () => {
                 </div>
             </div>
 
-           
-    
+
+
 
             <TestimonialSection />
 

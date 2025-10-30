@@ -129,17 +129,17 @@ const Services = () => {
                             {[{
                                 title: "Job Seekers",
                                 img: appDevelopmentImg,
-                                desc: "Meaningful career opportunities in top organizations.",
+                                desc: "Meaningful career opportunities in top organizations.Looking to build your career with the right guidance, training, and opportunities? At Ardent & Vale Consultants Pvt. Ltd., we help freshers and experienced professionals connect with leading organizations and reputable roles that align with their skills and aspirations.",
                                 link: "/mobile"
                             }, {
                                 title: "Employees",
                                 img: staffManagementImg,
-                                desc: "Permanent & contract staffing with onboarding support.",
+                                desc: "Permanent & contract staffing with onboarding support.Interested in being a part of a collaborative, progressive, and dynamic work culture? Join our internal team and work alongside industry experts to deliver top-class staffing and workforce solutions to global clients.",
                                 link: "/webdesign"
                             }, {
                                 title: "Clients",
                                 img: webDevelopmentImg,
-                                desc: "Trusted supply of skilled professionals.",
+                                desc: "Trusted supply of skilled professionals .We support organizations in finding highly skilled, reliable, and goal-driven professionals who match business expectations and culture. Our tailored recruitment approach ensures timely talent acquisition with maximum efficiency.",
                                 link: "/staff-augmentation"
                             }].map((card, i) => (
                                 <div key={i} className="bg-white p-8 shadow-xl rounded-lg hover:bg-slate-700 hover:text-white transition">
