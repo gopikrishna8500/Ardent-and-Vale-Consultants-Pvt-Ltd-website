@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Smartphone, Wrench, Globe, RefreshCw, Palette, CheckCircle, Search, Link2 } from "lucide-react";
 import Lottie from 'lottie-react';
-import avcpllogo2 from '../assets/avcpl-fav.png';
+import avcpllogo2 from '../assets/Mainonelogo.png';
 import bulbIcon from '../assets/light-bulb.png';
 import nativeApp from "../assets/Native Apps.png";
 import crossPlatformApp from "../assets/Cross-Platform Apps.png";
