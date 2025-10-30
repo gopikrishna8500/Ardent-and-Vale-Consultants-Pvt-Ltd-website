@@ -82,14 +82,14 @@ const HeroSection = () => {
 
       <button
         onClick={prevSlide}
-        className="absolute top-1/2 left-6 -translate-y-1/2 bg-black/40 hover:bg-black/60 p-2 rounded-full text-white"
+        className="absolute top-1/2 left-6 -translate-y-1/2 bg-black/80 hover:bg-black/40 p-2 rounded-full text-white"
       >
         <ChevronLeft size={22} />
       </button>
 
       <button
         onClick={nextSlide}
-        className="absolute top-1/2 right-6 -translate-y-1/2 bg-black/40 hover:bg-black/60 p-2 rounded-full text-white"
+        className="absolute top-1/2 right-6 -translate-y-1/2 bg-black/80 hover:bg-black/40 p-2 rounded-full text-white"
       >
         <ChevronRight size={22} />
       </button>
