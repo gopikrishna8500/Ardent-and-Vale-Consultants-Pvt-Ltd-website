@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Smartphone, Wrench, Globe, RefreshCw, Palette, CheckCircle, Search, Link2 } from "lucide-react";
 import Lottie from 'lottie-react';
-import aptitlogo from '../assets/aptitps-logo.png';
+import avcpllogo from '../assets/avcpl-logo.png';
 import bulbIcon from '../assets/light-bulb.png';
 import nativeApp from "../assets/Native Apps.png";
 import crossPlatformApp from "../assets/Cross-Platform Apps.png";
@@ -303,7 +303,7 @@ const MobileAppDevelopmentPage = () => {
                                 <div className="text-center">
                                     <div className="w-48 h-48 mx-auto mb-4 flex items-center justify-center">
                                         <img
-                                            src={aptitlogo}
+                                            src={avcpllogo}
                                             alt="Ardent and Vale Consultants Pvt Ltd"
                                             className="w-full h-full object-contain"
                                         />
