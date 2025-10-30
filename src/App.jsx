@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ScrollToTop from "./ScrollToTop";
-
+import HeroSection1 from "./components/HeroSection1";
 import HeroSection from "./components/HeroSection";
 import ServicesSection from "./components/ServicesSection";
 import AboutSection from "./components/AboutSection";
@@ -42,7 +42,7 @@ function App() {
             path="/"
             element={
               <>
-              
+                <HeroSection1 />
                 <HeroSection />
                 <ServicesSection />
                 <AboutSection />
