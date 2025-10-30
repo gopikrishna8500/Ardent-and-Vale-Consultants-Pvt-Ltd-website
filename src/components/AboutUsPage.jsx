@@ -128,7 +128,7 @@ const AboutUsPage = () => {
                     </div>
                     <h3 className="text-xl font-bold mb-4">Staff Augmentation</h3>
                     <p className="text-gray-600 group-hover:text-white leading-relaxed mb-6">
-                        Our recruitment arm keeps evolving. At APT IT Professional Services, we don't just fill roles. We align with your vision of business transformation.                    </p>
+                        Our recruitment arm keeps evolving. At Ardent and Vale Consultants Pvt Ltd, we don't just fill roles. We align with your vision of business transformation.                    </p>
                     <Link to="/staff-augmentation">
                         <button className="bg-slate-900 hover:bg-slate-600 text-white px-6 py-2 rounded-lg transition">
                             Read More

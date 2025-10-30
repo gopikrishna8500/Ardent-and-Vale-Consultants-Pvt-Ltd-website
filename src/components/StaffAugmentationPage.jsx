@@ -37,16 +37,16 @@ const StaffAugmentationPage = () => {
                 <div className="container mx-auto px-4 max-w-5xl relative z-10 text-center">
                     <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4">Staff Augmentation</h1>
                     <div className="flex items-center justify-center space-x-2 text-white text-sm sm:text-base">
-                        <span className="hover:text-orange-400 transition-colors cursor-pointer">Home</span>
-                        <span className="text-white">›</span>
+                        <span className="hover:text-slate-400 transition-colors cursor-pointer">Home</span>
+                        <span className="text-gray-400">›</span>
                         <span className="text-white">Staff Augumentation</span>
                     </div>
                 </div>
             </div>
 
 
-            <div className="container mx-auto px-4 py-16 w-full lg:w-10/12">
-                <section className="py-20 bg-white mb-10">
+            <div className="container mx-auto px-4 py-10 w-full lg:w-10/12">
+                <section className="py-12 bg-white mb-4">
                     <div className="container mx-auto px-4 w-full lg:w-10/12">
                         <div className="grid md:grid-cols-2 gap-8 items-center">
 
@@ -79,18 +79,18 @@ const StaffAugmentationPage = () => {
                         </div>
                     </div>
                 </section>
-                <section className="py-16 bg-white">
-        <div className="max-w-5xl mx-auto px-6 text-center">
-          <h2 className="text-2xl sm:text-3xl font-bold text-blue-900 mb-6">Client</h2>
-          <p className="text-gray-700 leading-relaxed text-lg">
-            Ervinsoft India Pvt Ltd fulfils the IT manpower requirements of small, medium and large-scale companies including the Fortune 500s across the American continent. We select the best of the lot from a global pool of candidates both locally and overseas to successfully meet the client’s permanent staffing needs. We keenly study all aspects of the organization, its short-term and long-term goals, to provide only the best resources we can. We assess each aspect of the candidate’s work and educational backgrounds, analyze the applicability of his or her skills through interviews and written tests, and perform background checks and verifications to ensure a hassle-free recruitment process for our clients.
-          </p>
-          <p className="text-gray-700 leading-relaxed text-lg mt-4">
-            Our demand-supply recruitment framework is supported by a robust 24/7 recruitment engine and an extensive database of industry requirements—ensuring you always stay ahead in the job market.
-          </p>
-        </div>
-      </section>
-                <div className="mb-20">
+                <section className="py-10 bg-white">
+                    <div className="max-w-5xl mx-auto px-6 text-center">
+                        <h2 className="text-2xl sm:text-3xl font-bold text-blue-900 mb-6">Client</h2>
+                        <p className="text-gray-700 leading-relaxed text-lg">
+                            Ervinsoft India Pvt Ltd fulfils the IT manpower requirements of small, medium and large-scale companies including the Fortune 500s across the American continent. We select the best of the lot from a global pool of candidates both locally and overseas to successfully meet the client’s permanent staffing needs. We keenly study all aspects of the organization, its short-term and long-term goals, to provide only the best resources we can. We assess each aspect of the candidate’s work and educational backgrounds, analyze the applicability of his or her skills through interviews and written tests, and perform background checks and verifications to ensure a hassle-free recruitment process for our clients.
+                        </p>
+                        <p className="text-gray-700 leading-relaxed text-lg mt-4">
+                            Our demand-supply recruitment framework is supported by a robust 24/7 recruitment engine and an extensive database of industry requirements—ensuring you always stay ahead in the job market.
+                        </p>
+                    </div>
+                </section>
+                <div className="mb-12">
                     <h2 className="text-3xl md:text-4xl font-bold text-slate-900 text-center mb-6">
                         Our Engagement Models
                     </h2>
@@ -132,7 +132,7 @@ const StaffAugmentationPage = () => {
                     </div>
                 </div>
 
-                <div className="mb-20">
+                <div className="mb-12">
                     <div className="grid md:grid-cols-2 gap-12 items-center">
                         <div>
                             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mb-4">
@@ -162,7 +162,7 @@ const StaffAugmentationPage = () => {
                     </div>
                 </div>
 
-                <div className="mb-20 max-w-8xl mx-auto">
+                <div className="mb-12 max-w-8xl mx-auto">
                     <div className="space-y-4">
                         <div className="border border-gray-200 rounded-lg overflow-hidden shadow-md">
                             <button
@@ -317,7 +317,7 @@ const StaffAugmentationPage = () => {
                     </div>
                 </div>
 
-                <div className="bg-linear-to-b from-white to-gray-50 py-16 text-center">
+                <div className="bg-linear-to-b from-white to-gray-50 py-10 text-center">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mb-4">
                         Need some assistance in selecting what works best for you?
                     </h2>

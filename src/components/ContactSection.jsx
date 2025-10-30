@@ -2,7 +2,7 @@ import React from "react";
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 import { Briefcase, Users, Mail, Phone, MapPin, Clock } from "lucide-react";
-import aptitpsLogo from "../assets/avcpl-logo.png";
+import avcplLogo from "../assets/avcpl-logo.png";
 
 const ContactSection = () => {
     const { ref, inView } = useInView({
@@ -86,7 +86,7 @@ const ContactSection = () => {
                                 <div className="flex flex-col lg:flex-row items-center lg:items-start mb-8 lg:mb-0 text-center lg:text-left lg:w-7/12">
                                     <div className="shrink-0 mb-4 lg:mb-0">
                                         <img
-                                            src={aptitpsLogo}
+                                            src={avcplLogo}
                                             alt="AVCPL Logo"
                                             className="h-16 w-auto object-contain mx-auto lg:mx-0"
                                         />

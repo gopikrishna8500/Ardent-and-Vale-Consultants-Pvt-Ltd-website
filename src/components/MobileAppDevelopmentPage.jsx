@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Smartphone, Wrench, Globe, RefreshCw, Palette, CheckCircle, Search, Link2 } from "lucide-react";
 import Lottie from 'lottie-react';
-import avcpllogo from '../assets/avcpl-logo.png';
+import avcpllogo2 from '../assets/avcpl-fav.png';
 import bulbIcon from '../assets/light-bulb.png';
 import nativeApp from "../assets/Native Apps.png";
 import crossPlatformApp from "../assets/Cross-Platform Apps.png";
@@ -56,14 +56,14 @@ const MobileAppDevelopmentPage = () => {
                     </h1>
 
                     <div className="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-2 text-white text-sm sm:text-base">
-                        <span className="hover:text-orange-500 transition-colors cursor-pointer">Home</span>
-                        <span className="text-orange-400">›</span>
+                        <span className="hover:text-slate-400 transition-colors cursor-pointer">Home</span>
+                        <span className="text-gray-400">›</span>
                         <span className="text-white">Mobile App Development</span>
                     </div>
                 </div>
             </div>
             {/* Android App Development Section */}
-            <section className="py-20 mb-5 bg-white">
+            <section className="py-12 mb-3 bg-white">
                 <div className="max-w-7xl mx-auto px-4 lg:max-w-[80%]">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
 
@@ -89,7 +89,7 @@ const MobileAppDevelopmentPage = () => {
                     </div>
                 </div>
             </section>
-             <section className="py-16 bg-white">
+            <section className="py-10 bg-white">
                 <div className="max-w-5xl mx-auto px-6 text-center">
                     <h2 className="text-2xl sm:text-3xl font-bold text-blue-900 mb-6">Job Seeker</h2>
                     <p className="text-gray-700 leading-relaxed text-lg">
@@ -103,7 +103,7 @@ const MobileAppDevelopmentPage = () => {
                 </div>
             </section>
             {/* Our custom mobile app development service Suite */}
-            <section className="py-20 bg-gray-50">
+            <section className="py-12 bg-gray-50">
                 <div className="max-w-7xl mx-auto px-4 lg:max-w-[85%]">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-slate-900 mb-12">
                         Our custom mobile app development service Suite
@@ -139,7 +139,7 @@ const MobileAppDevelopmentPage = () => {
                 </div>
             </section>
             {/* Mobile Application Platforms Section */}
-            <section className="py-20 bg-white">
+            <section className="py-12 bg-white">
                 <div className="max-w-7xl mx-auto px-4 lg:max-w-[80%]">
 
                     <h2 className="text-4xl font-bold text-center text-slate-900 mb-16">
@@ -217,7 +217,7 @@ const MobileAppDevelopmentPage = () => {
             </section>
 
             {/* Our Process & Integrations */}
-            <section className="py-20 bg-white">
+            <section className="py-12 bg-white">
                 <div className="max-w-7xl mx-auto px-4 lg:max-w-[90%]">
                     <h2 className="text-4xl font-bold text-center text-slate-900 mb-16">
                         Our Process & Integrations
@@ -255,7 +255,7 @@ const MobileAppDevelopmentPage = () => {
                 </div>
             </section>
             {/* Why Choose Section */}
-            <section className="py-20 bg-white">
+            <section className="py-12 bg-white">
                 <div className="max-w-7xl mx-auto px-4 lg:max-w-[80%]">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-slate-900 mb-12 sm:mb-16">
                         Why Choose Ardent and Vale Consultants Pvt Ltd?
@@ -303,7 +303,7 @@ const MobileAppDevelopmentPage = () => {
                                 <div className="text-center">
                                     <div className="w-48 h-48 mx-auto mb-4 flex items-center justify-center">
                                         <img
-                                            src={avcpllogo}
+                                            src={avcpllogo2}
                                             alt="Ardent and Vale Consultants Pvt Ltd"
                                             className="w-full h-full object-contain"
                                         />
@@ -349,9 +349,9 @@ const MobileAppDevelopmentPage = () => {
                     </div>
                 </div>
             </section>
-           
+
             {/* our Tech Eminence Section */}
-            <section className="py-16 bg-white">
+            <section className="py-10 bg-white">
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-slate-900 text-center mb-10">
                     Our Tech Eminence
                 </h2>
@@ -374,9 +374,9 @@ const MobileAppDevelopmentPage = () => {
                 </div>
             </section>
             {/* Our Engagement Models Section */}
-            <section className="py-20 bg-white">
+            <section className="py-12 bg-white">
                 <div className="max-w-7xl mx-auto px-4 lg:max-w-[80%]">
-                    <div className="mb-20">
+                    <div className="mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold text-slate-900 text-center mb-6">
                             Our Engagement Models
                         </h2>

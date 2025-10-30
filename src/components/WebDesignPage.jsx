@@ -143,16 +143,16 @@ const WebDesignPage = () => {
                         Web Design & Development
                     </h1>
                     <div className="flex items-center justify-center space-x-2 text-white text-sm sm:text-base">
-                        <span className="hover:text-orange-400 transition-colors cursor-pointer">Home</span>
-                        <span className="text-white">›</span>
+                        <span className="hover:text-slate-400 transition-colors cursor-pointer">Home</span>
+                        <span className="text-gray-400">›</span>
                         <span className="text-white">Web Design & Development</span>
                     </div>
                 </div>
             </div>
 
             {/* Intro Section */}
-            <div className="container px-4 py-16 mx-auto lg:w-10/12">
-                <section className="py-12 bg-white mb-10">
+            <div className="container px-4 py-10 mx-auto lg:w-10/12">
+                <section className="py-10 bg-white mb-6">
                     <div className="max-w-7xl mx-auto px-4">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                             <div className="text-center md:text-left">
@@ -170,7 +170,7 @@ const WebDesignPage = () => {
                         </div>
                     </div>
                 </section>
-                <section className="py-16 bg-white">
+                <section className="py-10 bg-white">
                     <div className="max-w-5xl mx-auto px-6 text-center">
                         <h2 className="text-2xl sm:text-3xl font-bold text-blue-900 mb-6">Employee</h2>
                         <p className="text-gray-700 leading-relaxed text-lg">
@@ -183,7 +183,7 @@ const WebDesignPage = () => {
                 </section>
 
                 {/* Core Web Offerings */}
-                <section className="py-20 bg-gray-50">
+                <section className="py-12 bg-gray-50">
                     <div className="max-w-7xl mx-auto px-4 lg:max-w-[85%]">
                         <h2 className="text-3xl sm:text-4xl font-bold text-center text-slate-900 mb-8 sm:mb-12">
                             Our Core Custom Web Development Offerings
@@ -227,7 +227,7 @@ const WebDesignPage = () => {
                 </section>
 
                 {/* Lifecycle Section */}
-                <div className="mb-20">
+                <div className="mb-12">
 
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 text-center mb-8 sm:mb-12">
                         Full Lifecycle Web Development
@@ -305,7 +305,7 @@ const WebDesignPage = () => {
 
 
                 {/* Tech Logos */}
-                <section className="py-16 bg-white">
+                <section className="py-10 bg-white">
                     <h2 className="text-slate-900 text-center font-bold mb-10 text-[28px] sm:text-[35px]">
                         Our Tech Eminence
                     </h2>
@@ -335,7 +335,7 @@ const WebDesignPage = () => {
                 </section>
 
                 {/* Engagement Models */}
-                <div className="mb-20">
+                <div className="mb-12">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 text-center mb-6 sm:mb-12">
                         Our Engagement Models
                     </h2>

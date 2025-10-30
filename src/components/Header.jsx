@@ -22,7 +22,7 @@ const Header = () => {
             <Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
             <img
                 src={avcplLogo}
-                alt="APTITPS Logo"
+                alt="AVCPL Logo"
                 className="h-12 w-auto object-contain"
                 style={{ maxWidth: "160px" }}
               />
@@ -130,7 +130,7 @@ const Header = () => {
               <button className="ml-6 bg-slate-900 hover:bg-slate-700 px-4 py-2 rounded-md text-sm flex items-center space-x-2 transition-colors font-bold text-white">
                 <Mail className="w-4 h-4" />
                 <span>
-                  <a href="mailto:info@aptitps.com">Mail Us</a>
+                  <a href="mailto:contact@ardentvaleconsultants.com">Mail Us</a>
                 </span>
               </button>
             </div>
@@ -239,7 +239,7 @@ const Header = () => {
                     <button className="ml-6 bg-slate-900 hover:bg-slate-700 px-4 py-2 rounded-md text-sm flex items-center space-x-2 transition-colors font-bold text-white">
                       <Mail className="w-4 h-4" />
                       <span>
-                        <a href="mailto:info@aptitps.com">Mail Us</a>
+                        <a href="mailto:contact@ardentvaleconsultants.com">Mail Us</a>
                       </span>
                     </button>
                   </div>
