@@ -193,7 +193,7 @@ const AboutUsPage = () => {
       </div>
 
       {/* Contact Snapshot */}
-      <div className="bg-white py-16">
+      {/* <div className="bg-white py-16">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-3xl font-bold text-slate-800 mb-8">Contact Snapshot</h2>
 
@@ -221,7 +221,7 @@ const AboutUsPage = () => {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
 
       <TestimonialSection />
 
