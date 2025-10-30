@@ -106,7 +106,7 @@ const Header = () => {
 
               <Link
                 to="/portfolio"
-                className="font-bold ttext-slate-900 text-lg hover:text-blue-800 transition-colors"
+                className="font-bold text-slate-900 text-lg hover:text-blue-800 transition-colors"
               >
                 Portfolio
               </Link>
