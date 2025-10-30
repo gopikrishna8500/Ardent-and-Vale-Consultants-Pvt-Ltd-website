@@ -26,9 +26,11 @@ const Services = () => {
                 <div className="max-w-7xl mx-auto px-4 text-center relative z-10">
                     <h1 className="text-4xl font-bold text-white mb-4">Services</h1>
                     <div className="flex items-center justify-center text-white">
+                         <Link to="/" className="hover:text-white transition">
                         <span className="hover:text-slate-400 transition-colors cursor-pointer">
                             Home
                         </span>
+                        </Link>
                         <ChevronRight className="h-4 w-4 mx-2 text-slate-400" />
                         <span className="text-white">Services</span>
                     </div>

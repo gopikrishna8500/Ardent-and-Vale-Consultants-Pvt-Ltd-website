@@ -10,32 +10,28 @@ import staffManagementImg from "../assets/Techeminence/staff-management.svg";
 const AboutUsPage = () => {
     return (
         <div className="min-h-screen bg-gray-100 font-sans">
-
             {/* Hero Section */}
-          <div className="relative py-16 sm:py-20 bg-cover bg-center overflow-hidden"
-
-
+            <div
+                className="relative py-20 bg-cover bg-center overflow-hidden"
                 style={{
                     backgroundImage:
                         "url('https://images.unsplash.com/photo-1521790361543-f645cf042ec4?auto=format&fit=crop&w=1600&q=80')",
                 }}
             >
-                <div className="absolute inset-0 bg-slate-900/80"></div>
-                <div className="relative z-10 text-center text-white max-w-2xl mx-auto px-6">
+                {/* Dark overlay for readability */}
+                <div className="absolute inset-0 bg-black/60"></div>
 
-             <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4 wrap-break-word leading-tight px-2">
-
-
-
-                        About Ardent & Vale Consultants Pvt Ltd
-                    </h1>
-                    <p className="text-lg md:text-xl text-slate-200">
-                        IT Consulting • Staffing Solutions • Business Services
-                    </p>
-                    <div className="flex justify-center items-center text-gray-300 mt-4">
-                        <Link to="/" className="hover:text-white transition">Home</Link>
-                        <ChevronRight className="mx-2 h-4 w-4 text-slate-300" />
-                        <span className="text-white font-medium">About Us</span>
+                {/* Content */}
+                <div className="max-w-7xl mx-auto px-4 text-center relative z-10">
+                    <h1 className="text-4xl font-bold text-white mb-4">About Us</h1>
+                    <div className="flex items-center justify-center text-white">
+                        <Link to="/" className="hover:text-white transition">
+                            <span className="hover:text-slate-400 transition-colors cursor-pointer">
+                                Home
+                            </span>
+                        </Link>
+                        <ChevronRight className="h-4 w-4 mx-2 text-slate-400" />
+                        <span className="text-white">About Us</span>
                     </div>
                 </div>
             </div>
@@ -45,6 +41,9 @@ const AboutUsPage = () => {
                 <h2 className="text-3xl md:text-4xl font-bold text-slate-800 text-center">
                     Company Overview
                 </h2>
+                <p className="text-gray-600 mt-4 max-w-3xl mx-auto text-center leading-relaxed">
+                    IT Consulting • Staffing Solutions • Business Services
+                </p>
                 <p className="text-gray-600 mt-4 max-w-3xl mx-auto text-center leading-relaxed">
                     Ardent & Vale Consultants Pvt Ltd (CIN: U78100TS2025PTC200214) delivers strategic
                     consulting, IT staffing, and professional solutions for global organizations.
@@ -204,7 +203,7 @@ const AboutUsPage = () => {
 
             </div>
             {/* Vision & Purpose Section */}
-          <div className="bg-gray-50 py-12 sm:py-16">
+            <div className="bg-gray-50 py-12 sm:py-16">
 
                 <div className="max-w-7xl mx-auto px-4">
                     <h2 className="text-3xl font-bold text-slate-800 mb-5">Our Vision & Purpose</h2>
