@@ -226,32 +226,42 @@ const AboutUsPage = () => {
             </div>
 
             {/* Contact Snapshot */}
-            <div className="max-w-7xl mx-auto px-6 py-16">
-                <h2 className="text-3xl font-semibold text-slate-800 mb-8">Contact Snapshot</h2>
-                <div className="grid md:grid-cols-3 gap-8">
-                    {[{
-                        icon: <Phone className="text-slate-700" />,
-                        label: "Phone",
-                        value: "+91-XXXXXXXXXX"
-                    }, {
-                        icon: <Mail className="text-slate-700" />,
-                        label: "Email",
-                        value: "contact@ardentvaleconsultants.com"
-                    }, {
-                        icon: <MapPin className="text-slate-700" />,
-                        label: "Headquarters",
-                        value: "Shaikpet, Telangana, 500081"
-                    }].map((item, i) => (
-                        <div key={i} className="flex gap-4 items-start bg-white shadow-md rounded-lg p-5">
-                            <div className="p-3 bg-slate-100 rounded-md">{item.icon}</div>
-                            <div>
-                                <p className="text-sm text-gray-500">{item.label}</p>
-                                <p className="font-medium text-gray-800">{item.value}</p>
+            <div className="bg-gray-50 py-12 sm:py-16">
+                <div className="max-w-7xl mx-auto px-4">
+                    <h2 className="text-3xl font-bold text-slate-800 mb-8">Contact Snapshot</h2>
+
+                    <div className="grid gap-6 sm:gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                        {[{
+                            icon: <Phone className="text-slate-700" />,
+                            label: "Phone",
+                            value: "+91-XXXXXXXXXX"
+                        }, {
+                            icon: <Mail className="text-slate-700" />,
+                            label: "Email",
+                            value: "contact@ardentvaleconsultants.com"
+                        }, {
+                            icon: <MapPin className="text-slate-700" />,
+                            label: "Headquarters",
+                            value: "Shaikpet, Telangana, 500081"
+                        }].map((item, i) => (
+                            <div
+                                key={i}
+                                className="flex gap-4 items-start bg-white shadow-sm hover:shadow-md transition rounded-lg p-6"
+                            >
+                                <div className="p-3 bg-gray-100 rounded-md">
+                                    {item.icon}
+                                </div>
+
+                                <div>
+                                    <p className="text-sm text-gray-500">{item.label}</p>
+                                    <p className="font-medium text-gray-800">{item.value}</p>
+                                </div>
                             </div>
-                        </div>
-                    ))}
+                        ))}
+                    </div>
                 </div>
             </div>
+
 
 
             <TestimonialSection />
