@@ -44,7 +44,7 @@ const HeroSection = () => {
 
         <Link
           to="/about"
-          className="inline-block bg-slate-900 hover:bg-slate-600 text-white font-semibold text-lg px-8 py-3 rounded-md shadow-md transition-all duration-300 hover:scale-105"
+          className="inline-block bg-gray-300 hover:bg-slate-900 hover:text-white text-black font-semibold text-lg px-8 py-3 rounded-md shadow-md transition-all duration-300 hover:scale-105"
         >
           Read More
         </Link>
