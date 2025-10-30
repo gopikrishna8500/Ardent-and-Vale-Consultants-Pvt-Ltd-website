@@ -103,7 +103,8 @@ const AboutUsPage = () => {
 
             {/* Services */}
 
-            <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+            <div className="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
                 {/* Mobile App Development */}
                 <div className="bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow group hover:bg-slate-700 hover:text-white">
                     <div className="flex justify-center mb-6">
@@ -167,7 +168,7 @@ const AboutUsPage = () => {
 
             </div>
             <div className="bg-white py-16">
-                <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-8">
+                <div className="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
                     {[{
                         title: "Job Seekers",
@@ -230,7 +231,7 @@ const AboutUsPage = () => {
                 <div className="max-w-7xl mx-auto px-4">
                     <h2 className="text-3xl font-bold text-slate-800 mb-8">Contact Snapshot</h2>
 
-                    <div className="grid gap-6 sm:gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
                         {[{
                             icon: <Phone className="text-slate-700" />,
                             label: "Phone",
