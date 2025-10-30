@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import avcplLogo from "../assets/Mainonelogo.png";
+import avcplLogo from "../assets/avcpl-logo.png";
 import { Phone, Mail, ChevronDown, Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link, useNavigate } from "react-router-dom";
