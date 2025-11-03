@@ -81,7 +81,7 @@ const ContactSection = () => {
 
                 </div>
                   {/* Stats Section */}
-                    <section ref={ref} className="w-full bg-gray-100 py-12">
+                    <section ref={ref} className="w-full bg-gray-200 py-12">
                         <div className="w-full max-w-7xl mx-auto px-4 lg:px-16">
                             <div className="flex flex-col lg:flex-row items-center justify-between w-full">
 
