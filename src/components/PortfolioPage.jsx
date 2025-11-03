@@ -66,7 +66,7 @@ const PortfolioPage = () => {
             {/* OUR EXPERTISE Section */}
             <section className="pt-24 pb-16 px-4">
                 <div className="max-w-6xl mx-auto text-center">
-                    <h1 className="text-5xl font-bold mb-8 tracking-wider text-slate-900">
+                    <h1 className="text-4xl font-bold mb-8 tracking-wider text-slate-900">
                         OUR EXPERTISE
                     </h1>
                     <p className="text-gray-600 leading-relaxed max-w-4xl mx-auto text-lg">
@@ -158,7 +158,7 @@ const PortfolioPage = () => {
             </section>
 
             {/* Authorised Partners */}
-            <h2 className="text-5xl font-bold text-center mb-8 tracking-wider text-slate-900">
+            <h2 className="text-4xl font-bold text-center mb-8 tracking-wider text-slate-900">
                 AUTHORISED PARTNERS
             </h2>
             <p className="text-gray-600 text-center leading-relaxed max-w-4xl mx-auto mb-16 text-lg">
@@ -171,7 +171,7 @@ const PortfolioPage = () => {
 
             {/* About Us */}
             <div className="mt-16 text-center max-w-4xl mx-auto">
-                <h2 className="text-5xl font-bold mb-16 tracking-wider  text-slate-900">
+                <h2 className="text-4xl font-bold mb-16 tracking-wider  text-slate-900">
                     ABOUT US
                 </h2>
                 <p className="text-gray-600 leading-relaxed text-lg">
@@ -204,7 +204,7 @@ const PortfolioPage = () => {
             {/* Clients Section */}
             <section className="py-16 px-4 bg-gray-50">
                 <div className="max-w-6xl mx-auto text-center">
-                    <h2 className="text-5xl font-bold mb-16 tracking-wider text-slate-900">
+                    <h2 className="text-4xl font-bold mb-16 tracking-wider text-slate-900">
                         OUR CLIENTS
                     </h2>
 
